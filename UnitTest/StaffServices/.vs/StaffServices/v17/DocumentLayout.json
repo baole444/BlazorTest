@@ -1,0 +1,243 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Code\\dotNet\\webAPI\\StaffServices\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|d:\\code\\dotnet\\webapi\\staffservices\\staffservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|solutionrelative:staffservices\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|d:\\code\\dotnet\\webapi\\staffservices\\staffservices\\respository\\employeerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|solutionrelative:staffservices\\respository\\employeerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1836AD4-460B-45A6-9FAD-A599E9A0D538}|..\\StaffTesting\\StaffTesting.csproj|d:\\code\\dotnet\\webapi\\stafftesting\\stafftestingrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|d:\\code\\dotnet\\webapi\\staffservices\\staffservices\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|solutionrelative:staffservices\\controllers\\staffcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|d:\\code\\dotnet\\webapi\\staffservices\\staffservices\\respository\\iemployeerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|solutionrelative:staffservices\\respository\\iemployeerespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|d:\\code\\dotnet\\webapi\\staffservices\\staffservices\\respository\\departmentrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|solutionrelative:staffservices\\respository\\departmentrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1836AD4-460B-45A6-9FAD-A599E9A0D538}|..\\StaffTesting\\StaffTesting.csproj|d:\\code\\dotnet\\webapi\\stafftesting\\stafftesting.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|d:\\code\\dotnet\\webapi\\staffservices\\staffservices\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|solutionrelative:staffservices\\models\\employeemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|d:\\code\\dotnet\\webapi\\staffservices\\staffservices\\models\\departmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|solutionrelative:staffservices\\models\\departmentmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|d:\\code\\dotnet\\webapi\\staffservices\\staffservices\\models\\gendermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|solutionrelative:staffservices\\models\\gendermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|d:\\code\\dotnet\\webapi\\staffservices\\staffservices\\models\\staffcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|solutionrelative:staffservices\\models\\staffcontex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|d:\\code\\dotnet\\webapi\\staffservices\\staffservices\\models\\bases\\employeebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|solutionrelative:staffservices\\models\\bases\\employeebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|d:\\code\\dotnet\\webapi\\staffservices\\staffservices\\respository\\idepartmentrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{668ABBD3-4F3E-4229-ABBE-AB6073C10E72}|StaffServices\\StaffServices.csproj|solutionrelative:staffservices\\respository\\idepartmentrespository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1836AD4-460B-45A6-9FAD-A599E9A0D538}|..\\StaffTesting\\StaffTesting.csproj|d:\\code\\dotnet\\webapi\\stafftesting\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\appsettings.json",
+              "RelativeDocumentMoniker": "StaffServices\\appsettings.json",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\appsettings.json",
+              "RelativeToolTip": "StaffServices\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-10T19:46:49.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StaffTestingRespository.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffTesting\\StaffTestingRespository.cs",
+              "RelativeDocumentMoniker": "..\\StaffTesting\\StaffTestingRespository.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffTesting\\StaffTestingRespository.cs",
+              "RelativeToolTip": "..\\StaffTesting\\StaffTestingRespository.cs",
+              "ViewState": "AgIAAOEAAAAAAAAAAAAIwA0BAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T18:07:26.397Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EmployeeModel.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Models\\EmployeeModel.cs",
+              "RelativeDocumentMoniker": "StaffServices\\Models\\EmployeeModel.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Models\\EmployeeModel.cs",
+              "RelativeToolTip": "StaffServices\\Models\\EmployeeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:31:59.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeRespository.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Respository\\EmployeeRespository.cs",
+              "RelativeDocumentMoniker": "StaffServices\\Respository\\EmployeeRespository.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Respository\\EmployeeRespository.cs",
+              "RelativeToolTip": "StaffServices\\Respository\\EmployeeRespository.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAwwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T10:05:19.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IEmployeeRespository.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Respository\\IEmployeeRespository.cs",
+              "RelativeDocumentMoniker": "StaffServices\\Respository\\IEmployeeRespository.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Respository\\IEmployeeRespository.cs",
+              "RelativeToolTip": "StaffServices\\Respository\\IEmployeeRespository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T17:47:38.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DepartmentModel.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Models\\DepartmentModel.cs",
+              "RelativeDocumentMoniker": "StaffServices\\Models\\DepartmentModel.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Models\\DepartmentModel.cs",
+              "RelativeToolTip": "StaffServices\\Models\\DepartmentModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:31:54.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "StaffContex.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Models\\StaffContex.cs",
+              "RelativeDocumentMoniker": "StaffServices\\Models\\StaffContex.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Models\\StaffContex.cs",
+              "RelativeToolTip": "StaffServices\\Models\\StaffContex.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:32:10.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeBase.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Models\\Bases\\EmployeeBase.cs",
+              "RelativeDocumentMoniker": "StaffServices\\Models\\Bases\\EmployeeBase.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Models\\Bases\\EmployeeBase.cs",
+              "RelativeToolTip": "StaffServices\\Models\\Bases\\EmployeeBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:31:52.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DepartmentRespository.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Respository\\DepartmentRespository.cs",
+              "RelativeDocumentMoniker": "StaffServices\\Respository\\DepartmentRespository.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Respository\\DepartmentRespository.cs",
+              "RelativeToolTip": "StaffServices\\Respository\\DepartmentRespository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:31:47.631Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StaffTesting.csproj",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffTesting\\StaffTesting.csproj",
+              "RelativeDocumentMoniker": "..\\StaffTesting\\StaffTesting.csproj",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffTesting\\StaffTesting.csproj",
+              "RelativeToolTip": "..\\StaffTesting\\StaffTesting.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-10T14:46:06.182Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StaffController.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Controllers\\StaffController.cs",
+              "RelativeDocumentMoniker": "StaffServices\\Controllers\\StaffController.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Controllers\\StaffController.cs",
+              "RelativeToolTip": "StaffServices\\Controllers\\StaffController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAA5wEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:09:34.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "IDepartmentRespository.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Respository\\IDepartmentRespository.cs",
+              "RelativeDocumentMoniker": "StaffServices\\Respository\\IDepartmentRespository.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Respository\\IDepartmentRespository.cs",
+              "RelativeToolTip": "StaffServices\\Respository\\IDepartmentRespository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:26:20.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "GenderModel.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Models\\GenderModel.cs",
+              "RelativeDocumentMoniker": "StaffServices\\Models\\GenderModel.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffServices\\StaffServices\\Models\\GenderModel.cs",
+              "RelativeToolTip": "StaffServices\\Models\\GenderModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T16:32:06.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "D:\\Code\\dotNet\\webAPI\\StaffTesting\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\StaffTesting\\UnitTest1.cs",
+              "ToolTip": "D:\\Code\\dotNet\\webAPI\\StaffTesting\\UnitTest1.cs",
+              "RelativeToolTip": "..\\StaffTesting\\UnitTest1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T15:30:03.599Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

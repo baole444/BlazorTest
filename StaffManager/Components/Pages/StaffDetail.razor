@@ -1,0 +1,37 @@
+﻿@page "/staffdetail/{id}"
+@page "/staffdetail"
+@using Services.Models
+@inherits StaffDetailBase
+
+@if (Staff == null || Staff.DepartmentID == null)
+{
+    <div class="spinner"></div>
+} else
+{
+    <div class="row justify-content-center m-3">
+        <div class="col-sm-8">
+            <div class="card-header">
+                <h1>@Staff.FirstName @Staff.LastName</h1>
+            </div>
+
+            <div class="card-body">
+                <h4>Staff ID: @Staff.EmployeeID</h4>
+                <h4>Email: @Staff.Email</h4>
+                <h4>Department: @Staff.Department.DepartmentName</h4>
+            </div>
+
+            <div class="card-footer text-center">
+                <a href="/stafflist" class="btn btn-primary">Back</a>
+
+                <a href="@($"editstaff/{Staff.EmployeeID}")" 
+                    class="btn btn-primary m-1">Edit</a>
+
+                <a href="#" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>    
+}
+
+@code {
+
+}

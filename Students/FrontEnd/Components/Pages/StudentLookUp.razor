@@ -1,0 +1,75 @@
+﻿@page "/lookup"
+@rendermode InteractiveServer
+
+@using Microsoft.Extensions.Configuration
+@using DBConnect
+@using FrontEnd.Models
+@inject IMySQLConnect _data
+@inject IConfiguration _config
+
+<h3>Student LookUp</h3>
+
+Searching for student by name.
+
+<EditForm Model="studentDetailModel" OnValidSubmit="FindStudent">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <InputText id="name" @bind-Value="studentDetailModel.st_name" class="form-control" />
+        <ValidationMessage For="@(() => studentDetailModel.st_name)" />
+    </div>
+
+
+    <button type="submit" class="btn btn-primary">Find Student</button>
+</EditForm>
+
+@if (student == null)
+{
+    <p><em>Loading...</em></p>
+
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Birthday</th>
+                <th>Address</th>
+                <th>Photo</th>
+                <th>Class</th>
+                <th>Division</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in student)
+            {
+                <tr>
+                    <td>@s.ID</td>
+                    <td>@s.st_name</td>
+                    <td>@s.birth?.ToString("d")</td>
+                    <td>@s.address</td>
+                    <td>@s.photo</td>
+                    <td>@s.class_name</td>
+                    <td>@s.div_name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private StudentDetailModel studentDetailModel = new StudentDetailModel();
+
+    List<StudentDetailModel> student;
+
+    private async Task FindStudent()
+    {
+        string sql = "select s.ID, s.st_name, s.birth, s.address, s.photo, c.class_name, d.div_name from student s join class c on s.class_id = c.ID join division d on s.division_id = d.ID where s.st_name like '%" + studentDetailModel.st_name + "%';";
+        student = await _data.getQueryData<StudentDetailModel, dynamic>(sql, new { ST_NAME = studentDetailModel.st_name }, _config.GetConnectionString("default"));
+    }
+
+}

@@ -1,0 +1,59 @@
+﻿@page "/staffedit/{id}"
+@page "/staffedit"
+@rendermode InteractiveServer
+@using Services.Models
+@inherits StaffEditBase
+
+@if (Staff == null || Staff.DepartmentID == null)
+{
+    <div class="spinner"></div>
+}
+else
+{
+    <div class="row justify-content-center m-3">
+        <div class="col-sm-8">
+            <div class="card-header">
+                <h1>Edit Staff</h1>
+            </div>
+
+            <div class="card-body">
+                <h4>Staff ID: @Staff.EmployeeID</h4>
+                <EditForm Model="NewDetail" OnValidSubmit="UpdateDetail">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+
+                    <div class="form-group">
+                        <label for="FirstName">First Name</label>
+                        <InputText id="firstname" @bind-Value="NewDetail.FirstName" class="form-control" />
+                        <ValidationMessage For="@(() => NewDetail.FirstName)" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="LastName">Last Name</label>
+                        <InputText id="lastname" @bind-Value="NewDetail.LastName" class="form-control" />
+                        <ValidationMessage For="@(() => NewDetail.LastName)" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="LastName">Last Name</label>
+                        <input type="date" id="dayofbirth" @bind-Value="NewData." class="form-control" />
+                        <ValidationMessage For="@(() => NewDetail.LastName)" />
+                    </div>
+                </EditForm>
+            </div>
+
+            <div class="card-footer text-center">
+                <a href="/stafflist" class="btn btn-primary">Back</a>
+
+                <a href="@($"editstaff/{Staff.EmployeeID}")"
+                   class="btn btn-primary m-1">Edit</a>
+
+                <a href="#" class="btn btn-danger">Delete</a>
+            </div>
+        </div>
+    </div>
+}
+
+@code {
+
+}

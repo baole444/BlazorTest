@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEnd", "FrontEnd\FrontEnd.csproj", "{42785A9A-B18D-4360-AE84-19893C07F71C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBConnect", "DBConnect\DBConnect.csproj", "{88ABE4CD-ACC5-41AA-93FD-77CCF816F810}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42785A9A-B18D-4360-AE84-19893C07F71C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42785A9A-B18D-4360-AE84-19893C07F71C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42785A9A-B18D-4360-AE84-19893C07F71C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42785A9A-B18D-4360-AE84-19893C07F71C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88ABE4CD-ACC5-41AA-93FD-77CCF816F810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88ABE4CD-ACC5-41AA-93FD-77CCF816F810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88ABE4CD-ACC5-41AA-93FD-77CCF816F810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88ABE4CD-ACC5-41AA-93FD-77CCF816F810}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {26F0B7E5-EE45-45F6-969A-D8ED7437B52B}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,50 @@
+﻿@page "/listing"
+@rendermode InteractiveServer
+
+@using Microsoft.Extensions.Configuration
+@using DBConnect
+@using FrontEnd.Models
+@inject IMySQLConnect _data
+@inject IConfiguration _config
+
+
+<h3>List of students</h3
+
+@if (student == null)
+{
+    <p><em>Loading...</em></p>
+
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var s in student)
+            {
+                <tr>
+                    <td>@s.ID</td>
+                    <td>@s.st_name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@code {
+        List<StudentModel> student;
+
+	protected override async Task OnInitializedAsync()
+    {
+        //string sql = "";
+        
+        string sql = "select * from student;";
+
+        student = await _data.getQueryData<StudentModel, dynamic>(sql, new { }, _config.GetConnectionString("default"));
+	}
+
+}
